@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Marjorie P. Alforte is an Information Technology student from Casay, Camarines Sur, interested in web development, animation, and editing."
+    />
+    <meta name="theme-color" content="#f8fafc" />
+    <title>Marjorie Alforte — Student Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="font-sans text-ink antialiased">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="no-print sticky top-0 z-30 border-b border-line/80 bg-paper/90 backdrop-blur-md">
+      <nav
+        class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 sm:px-8"
+        aria-label="Main navigation"
+      >
+        <a href="#home" class="font-display text-xl font-semibold tracking-tight" aria-label="Marjorie Alforte, home">
+          Marjorie's Portfolio
+        </a>
+        <button
+          id="menu-toggle"
+          class="rounded-md p-2 text-ink md:hidden"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          aria-label="Open navigation menu"
+        >
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+        <div id="nav-links" class="absolute left-0 right-0 top-full hidden flex-col gap-1 border-b border-line bg-paper px-5 pb-4 pt-2 md:static md:flex md:flex-row md:items-center md:gap-8 md:border-0 md:bg-transparent md:p-0">
+          <a class="nav-link rounded-lg px-3 py-2 text-sm text-muted transition hover:text-ink md:px-0 md:py-1" href="#about">About</a>
+          <a class="nav-link rounded-lg px-3 py-2 text-sm text-muted transition hover:text-ink md:px-0 md:py-1" href="#projects">Projects</a>
+          <a class="nav-link rounded-lg px-3 py-2 text-sm text-muted transition hover:text-ink md:px-0 md:py-1" href="#resume">Resume</a>
+          <a class="rounded-full bg-ink px-5 py-2.5 text-center text-sm font-medium text-paper transition hover:bg-accent" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero-section mx-auto grid min-h-[calc(100svh-73px)] max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 md:grid-cols-[1.08fr_.92fr] md:gap-8 md:py-20">
+        <div class="relative z-10">
+          <p class="mb-6 flex items-center gap-3 font-mono text-xs uppercase tracking-[.16em] text-leaf">
+            <span class="h-px w-8 bg-leaf"></span>
+            Information Technology · 2023—present
+          </p>
+          <h1 class="max-w-2xl font-display text-5xl font-medium leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
+            Marjorie <span class="italic text-accent">P.</span><br />Alforte
+          </h1>
+          <p class="mt-5 max-w-lg text-lg font-medium text-ink sm:text-xl">
+            IT student · aspiring web developer, animator & editor
+          </p>
+          <p class="mt-4 max-w-lg text-base leading-7 text-muted sm:text-lg sm:leading-8">
+            I’m studying Information Technology at Our Lady of Lourdes College Foundation. I enjoy both the creative and technical sides of digital work—from building websites to exploring animation and editing.
+          </p>
+          <div class="mt-9 flex flex-wrap items-center gap-4">
+            <a href="#projects" class="inline-flex items-center gap-3 rounded-full bg-ink px-6 py-3.5 text-sm font-medium text-paper transition hover:bg-accent">
+              Explore my work <span aria-hidden="true">↘</span>
+            </a>
+            <a href="#contact" class="rounded-full border border-line px-6 py-3.5 text-sm font-medium transition hover:border-ink">
+              Get in touch
+            </a>
+          </div>
+          <div class="mt-14 flex items-center gap-3 text-sm text-muted">
+            <span class="h-2 w-2 rounded-full bg-accent" aria-hidden="true"></span>
+            Based in Casay, Lupi, Camarines Sur
+          </div>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-[440px] md:ml-auto">
+          <div class="relative aspect-[4/4.5] overflow-hidden rounded-2xl bg-leaf">
+            <img
+              class="absolute inset-0 h-full w-full object-cover object-[center_38%]"
+              src="images/yeye.jpg"
+              alt="Marjorie Alforte smiling for a photo"
+              width="1364"
+              height="2046"
+              fetchpriority="high"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent"></div>
+            <div class="absolute bottom-7 left-7 right-7 z-10 sm:bottom-9 sm:left-9 sm:right-9">
+              <div>
+                <p class="font-display text-3xl leading-tight text-white sm:text-4xl">Marjorie P. Alforte</p>
+                <p class="mt-2 text-sm text-white/85">Information Technology student</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="border-y border-line bg-slate-100" aria-label="Areas of interest">
+        <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-5 py-5 font-mono text-[11px] uppercase tracking-[.14em] text-muted sm:gap-x-12 sm:px-8">
+          <span>Currently studying</span>
+          <span>BS Information Technology</span>
+          <span>Web development</span>
+          <span>Animation & video editing</span>
+        </div>
+      </div>
+
+      <section id="about" class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
+        <div class="grid gap-12 md:grid-cols-[.8fr_1.2fr] md:gap-20">
+          <div>
+            <p class="mb-4 font-mono text-xs uppercase tracking-[.16em] text-accent">A bit about me</p>
+            <h2 class="font-display text-4xl leading-tight tracking-tight sm:text-5xl">Learning to turn <span class="italic">ideas into useful tools.</span></h2>
+          </div>
+          <div class="pt-1">
+            <p class="text-lg leading-8 text-muted">
+              I’m a Bachelor of Science in Information Technology student at Our Lady of Lourdes College Foundation. My studies have introduced me to the many ways technology can solve everyday problems, and I’m especially interested in building websites that are straightforward to use.
+            </p>
+            <p class="mt-5 text-base leading-7 text-muted">
+              My school project, a Spa Appointment Booking System, gave me a chance to work on a practical idea: helping users schedule, view, and manage appointments online. Outside of development, I’m interested in animation and editing as ways to tell stories and bring ideas to life.
+            </p>
+            <div class="mt-9 grid grid-cols-2 gap-3 sm:grid-cols-3">
+              <div class="rounded-lg border border-line bg-white p-4">
+                <p class="font-mono text-[10px] uppercase tracking-wider text-muted">Studying</p>
+                <p class="mt-2 text-sm font-medium">BS Information Technology</p>
+              </div>
+              <div class="rounded-lg border border-line bg-white p-4">
+                <p class="font-mono text-[10px] uppercase tracking-wider text-muted">Interested in</p>
+                <p class="mt-2 text-sm font-medium">Web development</p>
+              </div>
+              <div class="rounded-lg border border-line bg-white p-4">
+                <p class="font-mono text-[10px] uppercase tracking-wider text-muted">Also exploring</p>
+                <p class="mt-2 text-sm font-medium">Animation & editing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-14 grid gap-5 sm:grid-cols-2">
+          <figure>
+            <img
+              class="aspect-[4/3] w-full rounded-lg object-cover object-[center_50%]"
+              src="images/ye.jpg"
+              alt="Marjorie outdoors on a tree-lined walkway"
+              width="2048"
+              height="2048"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <img
+              class="aspect-[4/3] w-full rounded-lg object-cover object-[center_38%]"
+              src="images/yeye.jpg"
+              alt="Marjorie wearing her student uniform"
+              width="1367"
+              height="2048"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="projects" class="border-y border-line bg-slate-100">
+        <div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
+          <div class="mb-12 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+            <div>
+              <p class="mb-4 font-mono text-xs uppercase tracking-[.16em] text-accent">Selected work</p>
+              <h2 class="font-display text-4xl tracking-tight sm:text-5xl">Projects built for <span class="italic">real needs.</span></h2>
+            </div>
+            <p class="max-w-sm text-sm leading-6 text-muted">School projects where I’ve applied what I’m learning in Information Technology.</p>
+          </div>
+
+          <div class="grid gap-4 md:grid-cols-2">
+            <article class="overflow-hidden rounded-xl border border-line bg-paper">
+              <img
+                class="aspect-[16/8] w-full object-cover object-top"
+                src="images/yolette.png"
+                alt="Screenshot of the Yolette Wellness and Beauty Center website built for the spa appointment project"
+                width="1883"
+                height="908"
+                loading="lazy"
+              />
+              <div class="p-6">
+                <p class="font-mono text-xs text-muted">School project · July–October 2025</p>
+                <h3 class="mt-4 font-display text-2xl">Spa Appointment Booking System</h3>
+                <p class="mt-3 text-sm leading-6 text-muted">A web-based system that lets users schedule, view, and manage appointments online.</p>
+                <p class="mt-5 border-t border-line pt-4 text-xs text-muted">Web application · Appointment management</p>
+              </div>
+            </article>
+            <article class="overflow-hidden rounded-xl border border-line bg-paper">
+              <div class="grid grid-cols-2 gap-1">
+                <img
+                  class="aspect-[4/3] h-full w-full object-cover"
+                  src="images/robotics%20(1).jpg"
+                  alt="Library Sound Detector group project prototype with sound sensor and circuit board"
+                  width="2048"
+                  height="1152"
+                  loading="lazy"
+                />
+                <img
+                  class="aspect-[4/3] h-full w-full object-cover"
+                  src="images/robotics%20(2).jpg"
+                  alt="Electronics and components used in the Library Sound Detector group project"
+                  width="2048"
+                  height="1152"
+                  loading="lazy"
+                />
+              </div>
+              <div class="p-6">
+                <p class="font-mono text-xs text-muted">Group project · October 2025</p>
+                <h3 class="mt-4 font-display text-2xl">Library Sound Detector</h3>
+                <p class="mt-3 text-sm leading-6 text-muted">A robotics project developed with classmates to detect sound in the library.</p>
+                <p class="mt-5 border-t border-line pt-4 text-xs text-muted">Robotics · Sound detection</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="print-resume mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
+        <div class="mb-12 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+          <div class="flex items-center gap-5">
+            <img
+              class="h-24 w-24 rounded-full object-cover object-[center_30%]"
+              src="images/yeye.jpg"
+              alt="Marjorie P. Alforte"
+              width="1367"
+              height="2048"
+              loading="lazy"
+            />
+            <div>
+            <p class="mb-4 font-mono text-xs uppercase tracking-[.18em] text-accent">Resume</p>
+            <h2 class="font-display text-4xl tracking-tight sm:text-5xl">ALFORTE, MARJORIE P.</h2>
+            <p class="mt-2 text-muted">Intern applicant · Web Developer / Animator / Editor</p>
+            </div>
+          </div>
+          <button type="button" onclick="window.print()" class="no-print inline-flex w-fit items-center gap-3 rounded-full border border-line px-5 py-3 text-sm font-medium transition hover:border-ink">
+            Print or save as PDF <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+
+        <div class="mb-8 grid gap-x-6 gap-y-2 border-y border-line py-4 text-sm sm:grid-cols-2">
+          <p><span class="font-medium">Address:</span> Zone 3, Casay, Lupi, Camarines Sur</p>
+          <a href="tel:+639944708007"><span class="font-medium">Mobile:</span> 0994 470 8007</a>
+          <a href="mailto:marjoriealfortel3@gmail.com"><span class="font-medium">Email:</span> marjoriealfortel3@gmail.com</a>
+          <div class="flex flex-wrap gap-x-4 gap-y-1">
+            <a class="underline decoration-line underline-offset-4 hover:decoration-ink" href="https://github.com/ye-gif" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="underline decoration-line underline-offset-4 hover:decoration-ink" href="https://www.linkedin.com/in/marjorie-p-alforte-6573a2405/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="underline decoration-line underline-offset-4 hover:decoration-ink" href="https://www.facebook.com/marjoriecaganda.palermoalforte.9/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+
+        <div class="space-y-8">
+          <section aria-labelledby="resume-objective">
+            <h3 id="resume-objective" class="mb-2 font-mono text-xs uppercase tracking-[.16em] text-muted">Objective</h3>
+            <p class="max-w-4xl text-sm leading-6 text-ink">
+              Information Technology student seeking an internship in web development, animation, or editing. Eager to apply my academic knowledge, contribute to creative and technical projects, and continue developing my skills in a professional environment.
+            </p>
+          </section>
+
+          <section aria-labelledby="resume-skills">
+            <h3 id="resume-skills" class="mb-2 font-mono text-xs uppercase tracking-[.16em] text-muted">Skills & qualifications</h3>
+            <ul class="grid gap-x-8 gap-y-1 text-sm leading-6 text-ink sm:grid-cols-2">
+              <li>Foundational web development: HTML, CSS, and JavaScript</li>
+              <li>Tailwind CSS and responsive page layouts</li>
+              <li>Building user-facing appointment and information flows</li>
+              <li>GitHub and basic project version sharing</li>
+              <li>Creative interest in animation and video editing</li>
+              <li>Open to learning new tools and working collaboratively</li>
+            </ul>
+          </section>
+
+          <section aria-labelledby="resume-projects">
+            <h3 id="resume-projects" class="mb-3 font-mono text-xs uppercase tracking-[.16em] text-muted">Projects</h3>
+            <div class="space-y-4">
+              <article>
+                <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                  <h4 class="text-sm font-semibold">Spa Appointment Booking System</h4>
+                  <span class="text-xs text-muted">School project · July–October 2025</span>
+                </div>
+                <p class="mt-1 text-sm leading-6 text-ink">Developed a web-based appointment booking system that allows users to schedule, view, and manage appointments online.</p>
+              </article>
+              <article>
+                <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                  <h4 class="text-sm font-semibold">Library Sound Detector</h4>
+                  <span class="text-xs text-muted">Group project · October 2025</span>
+                </div>
+                <p class="mt-1 text-sm leading-6 text-ink">Collaborated with classmates on a robotics project designed to detect sound in the library.</p>
+              </article>
+            </div>
+          </section>
+
+          <section aria-labelledby="resume-education">
+            <h3 id="resume-education" class="mb-3 font-mono text-xs uppercase tracking-[.16em] text-muted">Educational attainment</h3>
+            <div class="space-y-4">
+              <article>
+                <h4 class="text-sm font-semibold">Bachelor of Science in Information Technology</h4>
+                <p class="text-sm text-ink">Our Lady of Lourdes College Foundation · Vinzons Ave., Lag-On, Daet, Camarines Norte</p>
+                <p class="text-xs text-muted">2023–Present</p>
+              </article>
+              <article>
+                <h4 class="text-sm font-semibold">Senior High School</h4>
+                <p class="text-sm text-ink">Casay National High School · Casay, Lupi, Camarines Sur</p>
+                <p class="text-xs text-muted">2021–2023</p>
+              </article>
+              <article>
+                <h4 class="text-sm font-semibold">Junior High School</h4>
+                <p class="text-sm text-ink">Casay National High School · Casay, Lupi, Camarines Sur</p>
+                <p class="text-xs text-muted">2017–2021</p>
+              </article>
+              <article>
+                <h4 class="text-sm font-semibold">Elementary</h4>
+                <p class="text-sm text-ink">Casay Elementary School · Casay, Lupi, Camarines Sur</p>
+                <p class="text-xs text-muted">2011–2017</p>
+              </article>
+            </div>
+          </section>
+
+          <section aria-labelledby="resume-achievements">
+            <h3 id="resume-achievements" class="mb-2 font-mono text-xs uppercase tracking-[.16em] text-muted">Achievements</h3>
+            <ul class="space-y-1 text-sm leading-6 text-ink">
+              <li>With Honor · Senior High School</li>
+              <li>Dean’s Lister · 3rd year college, 2nd semester</li>
+            </ul>
+          </section>
+
+          <section aria-labelledby="resume-references">
+            <h3 id="resume-references" class="mb-3 font-mono text-xs uppercase tracking-[.16em] text-muted">Character references</h3>
+            <div class="grid gap-4 sm:grid-cols-3">
+              <article>
+                <h4 class="text-sm font-semibold">Jobelle J. Ramos</h4>
+                <p class="text-xs leading-5 text-muted">Senior High School Teacher<br />Casay National High School<br />Casay, Lupi, Camarines Sur</p>
+                <a class="text-xs text-ink" href="tel:+639108693208">0910 869 3208</a>
+              </article>
+              <article>
+                <h4 class="text-sm font-semibold">Ma. Cristina B. Fernando</h4>
+                <p class="text-xs leading-5 text-muted">Senior High School Teacher<br />Casay National High School<br />Casay, Lupi, Camarines Sur</p>
+                <a class="text-xs text-ink" href="tel:+639482269561">0948 226 9561</a>
+              </article>
+              <article>
+                <h4 class="text-sm font-semibold">Abigael S. Remot</h4>
+                <p class="text-xs leading-5 text-muted">Senior High School Teacher<br />Casay National High School<br />Casay, Lupi, Camarines Sur</p>
+                <a class="text-xs text-ink" href="tel:+639771124887">0977 112 4887</a>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="contact" class="border-t border-line bg-ink text-paper">
+        <div class="mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
+          <div class="grid gap-12 md:grid-cols-[1fr_auto] md:items-end">
+            <div>
+              <p class="mb-5 font-mono text-xs uppercase tracking-[.16em] text-slate-300">Get in touch</p>
+              <h2 class="max-w-2xl font-display text-5xl leading-tight tracking-tight sm:text-6xl">Let’s talk about <span class="text-slate-300">what’s next.</span></h2>
+              <p class="mt-6 max-w-lg text-base leading-7 text-paper/75">I’m looking for an internship in web development, animation, or editing. Feel free to reach out by email or connect with me online.</p>
+            </div>
+            <a href="mailto:marjoriealfortel3@gmail.com?subject=Hello%20Marjorie" class="inline-flex w-fit items-center gap-4 rounded-full bg-paper px-6 py-4 text-sm font-medium text-ink transition hover:bg-slate-200">
+              marjoriealfortel3@gmail.com <span class="text-lg" aria-hidden="true">↗</span>
+            </a>
+            <a href="tel:+639944708007" class="text-sm text-paper/75 underline decoration-paper/30 underline-offset-4 hover:text-white">
+              0994 470 8007
+            </a>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 border-t border-paper/15 pt-5 text-sm text-paper/75">
+            <a class="transition hover:text-white" href="https://github.com/ye-gif" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="transition hover:text-white" href="https://www.linkedin.com/in/marjorie-p-alforte-6573a2405/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="transition hover:text-white" href="https://www.facebook.com/marjoriecaganda.palermoalforte.9/" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="no-print bg-ink">
+      <div class="mx-auto flex max-w-6xl flex-col gap-2 border-t border-paper/15 px-5 py-5 text-xs text-paper/50 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+        <p>Made with curiosity by Marjorie Alforte.</p>
+        <a href="#home" class="transition hover:text-paper">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
